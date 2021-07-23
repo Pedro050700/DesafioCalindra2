@@ -1,0 +1,41 @@
+import styled from "styled-components";
+
+export const Sidebar = styled.div`
+  margin-top: 7rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  border-right: 1px solid lightgray;
+  background-color: white;
+  height: 100vh;
+  width: 15rem;
+`;
+
+export const Title = styled.h2`
+  background-color: white;
+  margin-top: -39vh;
+  font-family: Roboto Condensed;
+  font-weight: 700px;
+  font-size: 53, 2px;
+  line-height: 62, 34px;
+  font-style: normal;
+  color: #716565;
+  margin-left: 10px;
+`;
+
+export const Icon = styled.div`
+  color: #716565;
+  width: 80px;
+  margin-top: -20rem;
+  margin-left: 60px;
+`;
+
+export const Follow = styled.h6`
+  margin-top: 70px;
+  margin-left: 55px;
+  color: #716565;
+  font-family: Roboto Condensed;
+  font-size: 20px;
+`;

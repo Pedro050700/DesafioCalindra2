@@ -1,0 +1,32 @@
+import React from "react";
+import "./styles";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import YouTubeIcon from "@material-ui/icons/YouTube";
+import TwitterIcon from "@material-ui/icons/Twitter";
+import { Sidebar, Title, Icon, Follow } from "./styles";
+
+function bar() {
+  return (
+    <Sidebar>
+      <Title>
+        <h2>
+          Measuring
+          <br />
+          everything
+          <img src="./assets/img/fita2.png" width="200" alt="Level" />
+        </h2>
+      </Title>
+
+      <Follow>
+        <a>Follow Us</a>
+      </Follow>
+      <Icon>
+        <YouTubeIcon />
+        <FacebookIcon />
+        <TwitterIcon />
+      </Icon>
+    </Sidebar>
+  );
+}
+
+export default bar;

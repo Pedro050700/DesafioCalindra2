@@ -1,0 +1,221 @@
+header {
+  background-color: #fff;
+  min-height: 5vh;
+  padding: 0 10vw;
+}
+
+.main1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  font-size: xx-large;
+  font-family: Roboto Condensed;
+  color: #716565;
+}
+
+.main2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  font-size: x-large;
+  font-family: Roboto Condensed;
+  color: white;
+  background-color: #506fa9;
+}
+.main2 h2 {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: Roboto Condensed;
+}
+
+.imgMain2 {
+  width: 800px;
+  margin-right: -20px;
+}
+
+p {
+  margin-left: 86vh;
+  color: #716565;
+  font-size: 30px;
+}
+
+.titulo {
+  color: #fff;
+  margin-left: 90vh;
+  margin-top: -20rem;
+  font-size: xxx-large;
+}
+
+.subtitulo {
+  color: #fff;
+  margin-left: 90vh;
+  margin-top: -1rem;
+  font-size: 21px;
+}
+
+.container {
+  display: flex;
+  background-color: #fff;
+}
+
+div.main-logo {
+  display: flex;
+  padding: 2rem;
+  margin-left: -15vh;
+}
+
+container {
+  margin-left: 70vh;
+  margin-top: 90vh;
+}
+
+text {
+  font-family: Roboto Condensed;
+  color: #716565;
+  margin-left: 84vh;
+}
+
+.body {
+  position: absolute;
+  top: 80px;
+  background-color: rgb(238, 238, 238);
+  width: 70rem;
+  height: 40rem;
+  margin-left: 15rem;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Roboto" Condensed;
+}
+
+.main-nav ul {
+  display: flex;
+  margin: 0;
+  padding: auto;
+  list-style: none;
+}
+
+.main-nav a {
+  color: #846219;
+  text-decoration: none;
+  padding: 0 1rem;
+}
+.main-nav a:hover {
+  color: #585050;
+}
+.logoMobile {
+  display: none;
+}
+.toggle-button {
+  display: none;
+}
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #846219;
+  border-radius: 2px;
+}
+
+@media only screen and (max-width: 1000px) {
+  header {
+    padding: 0 5vw;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .toggle-button {
+    position: absolute;
+    right: 30px;
+    top: 15px;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 25px;
+    width: 30px;
+    cursor: pointer;
+    display: flex;
+  }
+
+  .main-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .main-nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    display: none;
+  }
+  .main-nav li {
+    padding: 0.6rem 0;
+  }
+  .main-nav a {
+    padding: 0;
+  }
+  .main-nav ul.active {
+    display: flex;
+  }
+}
+
+.Icone {
+  display: "flex";
+  justify-content: "center";
+  margin-right: "10px";
+}
+.svgIcon {
+  border: 2px solid #716565;
+  padding: 1px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+  .logoMobile {
+    display: block;
+    justify-content: center;
+    margin-left: 100px;
+  }
+  div.main-logo {
+    display: none;
+    padding: 20px;
+  }
+
+  .main1 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+  }
+
+  .imgMain1 {
+    width: 100%;
+    height: 30vh;
+  }
+  .main2 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+  }
+
+  .imgMain2 {
+    width: 100%;
+    height: 30vh;
+  }
+  .container {
+    text-align: center;
+    display: block;
+    width: 100%;
+  }
+  .h1 {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  .svgIcon {
+    border: 2px solid #716565;
+    padding: 1px;
+    border-radius: 25px;
+  }
+}
